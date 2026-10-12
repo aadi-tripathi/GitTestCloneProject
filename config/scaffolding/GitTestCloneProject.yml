@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/aadi-tripathi
   gitUsername: aadi-tripathi
   gitBranch: main
+services:
+- serviceName: project.gittestclone.integrations:daf1
+  packages:
+  - name: GitTestCloneProject
+    version: "1.0"
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1070
